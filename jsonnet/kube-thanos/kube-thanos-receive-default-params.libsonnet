@@ -30,6 +30,7 @@
     'receive="true"',
   ],
   tenantLabelName: null,
+  clusterDomain: 'cluster.local',
 
   commonLabels:: {
     'app.kubernetes.io/name': 'thanos-receive',
